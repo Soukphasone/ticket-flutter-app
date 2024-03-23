@@ -1,0 +1,19 @@
+<html>
+
+<head>
+    <script type="text/javascript">
+        function invokeNative() {
+            MessageInvoker.postMessage('5000'
+                // JSON.stringify({
+                //   "price": 5000
+                // })
+            );
+        }
+    </script> </head>
+
+<body>
+    <form>
+        <input type="button" value="Click me!" onclick="invokeNative()" style="height: 200px; width: 200px; font-size: 30px;"/>
+    </form> </body>
+
+</html>
